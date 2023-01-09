@@ -56,3 +56,16 @@ function loadQuestion() {
     c_text.innerText = currentQuestionData.c
     d_text.innerText = currentQuestionData.d
 }
+
+function deselectAnswers() {
+    answerOpt.forEach(answerEL => answerEL.checked = false)
+}
+
+function getSelectedOpt() {
+    let answer
+    answerOpt.forEach(answerEL => {
+        if (answerEL.checked) {
+            answer = answerEL
+        }
+    })
+}
