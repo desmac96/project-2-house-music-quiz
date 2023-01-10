@@ -46,8 +46,23 @@ ul li label {
 
 }
 
+#btn {
+    cursor: pointer;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 hr {
     width: 8%;
     margin: 0 auto;
 
+}
+
+.score {
+    background-color: #fff5f5;
+    width: 6%;
+    margin: 0 auto;
 }

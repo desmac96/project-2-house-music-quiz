@@ -75,3 +75,20 @@ function getSelectedOpt() {
         }
     })
 }
+
+function checkAnswer() {
+
+    if (this.id == myQuestions[currentQuestionIndex].correctAnswer) {
+        this.classList.add("correct");
+        incrementScore();
+    } else {
+        this.classList.add("incorrect");
+    }
+
+    setTimeout(() => {
+        this.classList.remove("correct");
+        this.classList.remove("incorrect");
+        setNextQuestion();
+    }, 1000);
+    currentQuestionIndex++;
+}
