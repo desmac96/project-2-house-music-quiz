@@ -1,4 +1,4 @@
-const quizQuestions = [{
+export const quizQuestions = [{
     question: "What city did house music come from?",
     a: "San Francisco",
     b: "New York",

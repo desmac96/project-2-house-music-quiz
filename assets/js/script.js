@@ -1,39 +1,7 @@
-const quizQuestions = [{
-    question: "What city did house music come from?",
-    a: "San Francisco",
-    b: "New York",
-    c: "Miami",
-    d: "Los Angeles",
-    correct: "b",
-}, {
-    question: "What category of music does house fall under?",
-    a: "Dance",
-    b: "Hip Hop",
-    c: "Rock",
-    d: "Country",
-    correct: "a",
-}, {
-    question: "Who was the man behind the name Mr. Fingers and tracks such as 'Can You Feel It'?",
-    a: "Larry Heard",
-    b: "Larry Star",
-    c: "Larry Heath",
-    d: "Larry Levan",
-    correct: "d",
-}, {
-    question: "This man is behind classics such as 'Move Your Body', 'I Got Da Feeling' and 'Mushrooms'. What's his name?",
-    a: "Seth Troxler",
-    b: "Jeff Mills",
-    c: "Robert Hood",
-    d: "Marshall Jefferson",
-    correct: "d",
-}, {
-    question: "What company designed the legendary tr808 and tr909 drum machines?",
-    a: "Moog",
-    b: "Ableton",
-    c: "Roland",
-    d: "Samsung",
-    correct: "c",
-}];
+// Questions array imported from questions.js
+import {
+    quizQuestions
+} from "./questions.js";
 
 const quiz = document.getElementById('quiz-app')
 const answerOpt = document.querySelectorAll('.answer')
