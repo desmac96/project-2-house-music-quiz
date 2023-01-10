@@ -25,6 +25,7 @@ body {
     box-shadow: 0 0 10px 20 px rgba(100, 100, 100, 0.1);
     align-items: center;
     width: 50%;
+    border-radius: 10px;
 }
 
 ul {
@@ -42,5 +43,11 @@ ul li label {
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: bold;
+
+}
+
+hr {
+    width: 8%;
+    margin: 0 auto;
 
 }
