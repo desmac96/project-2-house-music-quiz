@@ -10,6 +10,7 @@ body {
     font-family: Quicksand, sans-serif;
     background: #b2d430;
     font-weight: 300;
+    font-size: 1.2em;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -20,8 +21,10 @@ body {
 .quiz_container {
     overflow: hidden;
     background-color: #fff5f5;
+    margin: 0 auto;
     box-shadow: 0 0 10px 20 px rgba(100, 100, 100, 0.1);
     align-items: center;
+    width: 50%;
 }
 
 ul {
@@ -34,4 +37,10 @@ ul li label {
 
 .btn {
     cursor: pointer;
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
 }
