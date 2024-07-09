@@ -1,4 +1,7 @@
-// Questions array imported from questions.js
+console.log("questions.js has been loaded successfully.");
+
+
+// Questions array imported from questions.js //
 import {
     quizQuestions
 } from "./questions.js";
