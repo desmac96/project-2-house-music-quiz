@@ -63,6 +63,8 @@ function handleAnswerSubmission() {
 
 function checkAnswer(selectedAnswer) {
     const correctAnswerId = quizQuestions[currentQuestionIndex].correct;
+    // console log for q1 bug //
+    console.log(`Checking answer: ${selectedAnswer} against correct answer: ${correctAnswerId}`);
     if (selectedAnswer === correctAnswerId) {
         incrementScore();
     }
