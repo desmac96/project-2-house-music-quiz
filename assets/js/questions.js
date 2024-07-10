@@ -6,7 +6,7 @@ export const quizQuestions = [
         b: "New York",
         c: "Miami",
         d: "Los Angeles",
-        correct: "b",
+        correct: "b_answer",
     }, 
     {
         question: "What category of music does house fall under?",

@@ -58,7 +58,7 @@ function handleAnswerSubmission() {
 }
 
 function checkAnswer(selectedAnswer) {
-    const correctAnswerId = quizQuestions[currentQuestionIndex].correct + "_answer";
+    const correctAnswerId = quizQuestions[currentQuestionIndex].correct;
     if (selectedAnswer === correctAnswerId) {
         incrementScore();
     }
