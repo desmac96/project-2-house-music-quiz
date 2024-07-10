@@ -19,6 +19,8 @@ let score = 0;
 submitBtn.addEventListener("click", handleAnswerSubmission);
 
 function loadQuestion() {
+    // console log to debug question loading //
+    console.log(`Loading question ${currentQuestionIndex + 1}: ${quizQuestions[currentQuestionIndex].question}`);
     deselectAnswers();
     const currentQuestionData = quizQuestions[currentQuestionIndex];
     questionOpt.innerText = currentQuestionData.question;
@@ -39,6 +41,8 @@ function getSelectedOpt() {
             selectedAnswer = answerE1.id;
         }
     });
+    // console log to fix q1 bug //
+    console.log(`Selected answer: ${selectedAnswer}`);
     return selectedAnswer;
 }
 
