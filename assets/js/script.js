@@ -73,6 +73,8 @@ function checkAnswer(selectedAnswer) {
 function incrementScore() {
     score++;
     scoreCard.innerText = score;
+    // console log for q1 buf //
+    console.log(`Score incremented: ${score}`);
 }
 
 function displayResults() {
