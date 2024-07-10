@@ -12,23 +12,11 @@ body {
     font-weight: 300;
     font-size: 1.2em;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
-}
-
-.quiz_container {
-    background-color: #fff5f5;
-    box-shadow: 0 0 10px 20 px rgba(100, 100, 100, 0.1);
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    width: 60%;
-    max-width: 600px;
-    border-radius: 10px;
-    padding: 20px;
+    margin: 0;
     text-align: center;
 }
 
@@ -37,8 +25,31 @@ h1 {
     font-size: 2rem;
 }
 
+.quiz_container {
+    background-color: #fff5f5;
+    box-shadow: 0 0 10px 20 px rgba(100, 100, 100, 0.1);
+    align-items: center;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.quiz_heading {
+    margin-bottom: 20px;
+}
+
 ul {
     list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+ul li {
     margin: 10px 0;
 }
 
@@ -54,24 +65,15 @@ ul li label {
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #ff6f61;
+    background-color: gold;
     color: white;
     border: none;
     margin-top: 20px;
 
 }
 
-#btn {
-    cursor: pointer;
-    width: 10%;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
 .btn:hover {
-    background-color: #ff5a4d;
+    background-color: gold;
 }
 
 .score {
