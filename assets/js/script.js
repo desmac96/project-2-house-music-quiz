@@ -1,7 +1,9 @@
 console.log("questions.js has been loaded successfully.");
 
 // Questions array imported from questions.js //
-import { quizQuestions } from "./questions.js";
+import {
+    quizQuestions
+} from "./questions.js";
 
 const quiz = document.getElementById('quiz-app');
 const answerOpts = document.querySelectorAll('.answer');
@@ -58,10 +60,16 @@ function handleAnswerSubmission() {
 }
 
 function checkAnswer(selectedAnswer) {
-    const correctAnswerId = quizQuestions[currentQuestionIndex].correct;
-    if (selectedAnswer === correctAnswerId) {
-        incrementScore();
+    if (quizQuestions[currentQuestionIndex]) {
+        const correctAnswerId = quizQuestions[currentQuestionIndex].correct;
+        if (selectedAnswer === correctAnswerId) {
+            incrementScore();
+        }
+    } else {
+        submitBtn.innerText = "Restart Game";
+        submitBtn.onclick = () => location.reload();
     }
+
 }
 
 function incrementScore() {
