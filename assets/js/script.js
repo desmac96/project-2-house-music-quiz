@@ -111,8 +111,10 @@ function resetQuiz() {
             </ul>
         </div>
     `;
-    loadQuestion();
+    answerOpts = document.querySelectorAll('.answer');
+    submitBtn.removeEventListener("click", handleAnswerSubmission);
     submitBtn.addEventListener("click", handleAnswerSubmission);
+    loadQuestion();
 }
 
 // Initial call to load the first question
