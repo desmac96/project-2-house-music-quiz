@@ -79,6 +79,10 @@ function incrementScore() {
 
 function displayResults() {
     quiz.innerHTML = `<h2>You scored ${score} out of ${quizQuestions.length}</h2>`;
+    <button id="play-again" class="btn">Play Again</button>
+    `;
+    document.getElementById('play-again').addEventListener('click', resetQuiz);
+}
 }
 
 // Initial call to load the first question
