@@ -32,6 +32,11 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
 ul {
     list-style-type: none;
 }
