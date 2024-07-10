@@ -78,11 +78,41 @@ function incrementScore() {
 }
 
 function displayResults() {
-    quiz.innerHTML = `<h2>You scored ${score} out of ${quizQuestions.length}</h2>`;
+    quiz.innerHTML =` <h2>You scored ${score} out of ${quizQuestions.length}</h2>;
     <button id="play-again" class="btn">Play Again</button>
     `;
     document.getElementById('play-again').addEventListener('click', resetQuiz);
 }
+
+function resetQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    scoreCard.innerText = score;
+    quiz.innerHTML = `
+        <div class="quiz_heading">
+            <h2 id="questionaire">Question Section</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a_answer" class="answer">
+                    <label for="a_answer" id="a_answer_label">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b_answer" class="answer">
+                    <label for="b_answer" id="b_answer_label">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c_answer" class="answer">
+                    <label for="c_answer" id="c_answer_label">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d_answer" class="answer">
+                    <label for="d_answer" id="d_answer_label">Answer</label>
+                </li>
+            </ul>
+        </div>
+    `;
+    loadQuestion();
+    submitBtn.addEventListener("click", handleAnswerSubmission);
 }
 
 // Initial call to load the first question
