@@ -4,13 +4,14 @@ console.log("questions.js has been loaded successfully.");
 import { quizQuestions } from "./questions.js";
 
 const quiz = document.getElementById('quiz-app');
-const answerOpt = document.querySelectorAll('.answer');
+const answerOpts = document.querySelectorAll('.answer');
 const questionOpt = document.getElementById('questionaire');
 const a_text = document.getElementById('a_answer');
 const b_text = document.getElementById('b_answer');
 const c_text = document.getElementById('c_answer');
 const d_text = document.getElementById('d_answer');
 const submitBtn = document.getElementById('submit');
+const scoreCard = document.getElementById('score-card');
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -28,14 +29,14 @@ function loadQuestion() {
 }
 
 function deselectAnswers() {
-    answerOpt.forEach(answerEl => answerEl.checked = false);
+    answerOpts.forEach(answerE1 => answerE1.checked = false);
 }
 
 function getSelectedOpt() {
     let selectedAnswer;
-    answerOpt.forEach(answerEl => {
-        if (answerEl.checked) {
-            selectedAnswer = answerEl.id;
+    answerOpts.forEach(answerE1 => {
+        if (answerE1.checked) {
+            selectedAnswer = answerE1.id;
         }
     });
     return selectedAnswer;
@@ -57,13 +58,15 @@ function handleAnswerSubmission() {
 }
 
 function checkAnswer(selectedAnswer) {
-    if (selectedAnswer === quizQuestions[currentQuestionIndex].correctAnswer) {
+    const correctAnswerId = quizQuestions[currentQuestionIndex].correct + "_answer";
+    if (selectedAnswer === correctAnswerId) {
         incrementScore();
     }
 }
 
 function incrementScore() {
     score++;
+    scoreCard.innerText = score;
 }
 
 function displayResults() {
