@@ -113,3 +113,19 @@ As a first-time visitor, I want to:
     <li>Feel encouraged to participate in the quiz through engaging and appealing visual elements.</li>
     <li>Receive instant feedback on my performance to understand how well I know house music.</li>
 </ul>
+
+<h2>Frequent Visitor Goals</h2>
+
+<p>
+As a frequent visitor, I want to:
+</p>
+
+<ul>
+    <li>Quickly start the quiz without any hassle, as I am already familiar with the website layout and navigation.</li>
+    <li>See new and updated quiz questions to keep the experience fresh and challenging.</li>
+    <li>Access my previous scores and track my progress over time to see how my knowledge is improving.</li>
+    <li>Share my quiz results with friends on social media platforms to encourage them to participate as well.</li>
+    <li>Sign up for notifications or newsletters to stay informed about new quizzes or updates related to house music.</li>
+    <li>Provide feedback on the quiz content and suggest new questions or topics for future quizzes.</li>
+    <li>Find additional resources or links to learn more about house music, enhancing my knowledge and interest in the genre.</li>
+</ul>
