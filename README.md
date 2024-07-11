@@ -99,3 +99,17 @@
 <p>
     By providing a straightforward, engaging, and interactive experience, the House Music Quiz effectively tests users' knowledge of house music while maintaining a user-friendly and visually appealing interface.
 </p>
+
+<h2>First Time Visitor Goals</h2>
+<p>
+As a first-time visitor, I want to:
+</p>
+
+<ul>
+    <li>Easily understand the main purpose of the website and learn more about what services are being offered.</li>
+    <li>Effortlessly navigate through the website and find the quiz section without any confusion.</li>
+    <li>Have a clear and intuitive user interface that guides me through starting and completing the quiz.</li>
+    <li>Access relevant information about house music, including trivia and facts, which enhances my interest in the quiz.</li>
+    <li>Feel encouraged to participate in the quiz through engaging and appealing visual elements.</li>
+    <li>Receive instant feedback on my performance to understand how well I know house music.</li>
+</ul>
