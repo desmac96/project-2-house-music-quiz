@@ -2,82 +2,102 @@
 // Questions array which is exported to script.js //
 export const quizQuestions = [{
         question: "What city did house music come from?",
-        a: "San Francisco",
-        b: "New York",
-        c: "Miami",
-        d: "Los Angeles",
-        correct: "b",
+        options: [
+            "San Francisco",
+            "New York",
+            "Miami",
+            "Los Angeles",
+        ],
+        correct: 1
     },
     {
         question: "What category of music does house fall under?",
-        a: "Dance",
-        b: "Hip Hop",
-        c: "Rock",
-        d: "Country",
-        correct: "a",
+        options: [
+            "Dance",
+            "Hip Hop",
+            "Rock",
+            "Country",
+        ],
+        correct: 0
     },
     {
         question: "Who was the man behind the name Mr. Fingers and tracks such as 'Can You Feel It'?",
-        a: "Larry Heard",
-        b: "Larry Star",
-        c: "Larry Heath",
-        d: "Larry Levan",
-        correct: "d",
+        options: [
+            "Larry Heard",
+            "Larry Star",
+            "Larry Heath",
+            "Larry Levan",
+        ],
+        correct: 3
     },
     {
         question: "This man is behind classics such as 'Move Your Body', 'I Got Da Feeling' and 'Mushrooms'. What's his name?",
-        a: "Seth Troxler",
-        b: "Jeff Mills",
-        c: "Robert Hood",
-        d: "Marshall Jefferson",
-        correct: "d",
+        options: [
+            "Seth Troxler",
+            "Jeff Mills",
+            "Robert Hood",
+            "Marshall Jefferson",
+        ],
+        correct: 3
     },
     {
         question: "What company designed the legendary tr808 and tr909 drum machines?",
-        a: "Moog",
-        b: "Ableton",
-        c: "Roland",
-        d: "Samsung",
-        correct: "c",
+        options: [
+            "Moog",
+            "Ableton",
+            "Roland",
+            "Samsung",
+        ],
+        correct: 2
     },
     {
         question: "Who founded the record label Trick?",
-        a: "Patrick Topping",
-        b: "Jamie Jones",
-        c: "Krystal Klear",
-        d: "Afrojack",
-        correct: "a",
+        options: [
+            "Patrick Topping",
+            "Jamie Jones",
+            "Krystal Klear",
+            "Afrojack",
+        ],
+        correct: 0
     },
     {
         question: "What country is Tomorrowland festival held in?",
-        a: "Brazil",
-        b: "Belgium",
-        c: "England",
-        d: "U.S.A",
-        correct: "b",
+        options: [
+            "Brazil",
+            "Belgium",
+            "England",
+            "U.S.A",
+        ],
+        correct: 1
     },
     {
         question: "What BPM range is most house music produced in?",
-        a: "50-80",
-        b: "80-110",
-        c: "110-140",
-        d: "140-170",
-        correct: "c",
+        options: [
+            "50-80",
+            "80-110",
+            "110-140",
+            "140-170",
+        ],
+        correct: 2
     },
     {
         question: "Who produced 90s dance classic Insomnia?",
-        a: "BICEP",
-        b: "Faithless",
-        c: "Depeche Mode",
-        d: "New Order",
-        correct: "b",
+        options: [
+            "BICEP",
+            "Faithless",
+            "Depeche Mode",
+            "New Order",
+        ],
+        correct: 1
     },
     {
         question: "Who is the youngest D.J to headline Ultra Music Festival?",
-        a: "Armand Van Helden",
-        b: "Tiesto",
-        c: "Aviici",
-        d: "Martin Garrix",
-        correct: "d",
-    }
+        options: [
+            "Armand Van Helden",
+            "Tiesto",
+            "Avicii",
+            "Martin Garrix",
+        ],
+        correct: 3
+    },
 ];

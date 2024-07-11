@@ -29,10 +29,10 @@ function loadQuestion() {
     deselectAnswers();
     const currentQuestionData = quizQuestions[currentQuestionIndex];
     questionOpt.innerText = currentQuestionData.question;
-    a_text.innerText = currentQuestionData.a;
-    b_text.innerText = currentQuestionData.b;
-    c_text.innerText = currentQuestionData.c;
-    d_text.innerText = currentQuestionData.d;
+    a_text.innerText = currentQuestionData.options[0];
+    b_text.innerText = currentQuestionData.options[1];
+    c_text.innerText = currentQuestionData.options[2];
+    d_text.innerText = currentQuestionData.options[3];
 }
 
 // Clear all selected answers
@@ -68,8 +68,8 @@ function handleAnswerSubmission() {
 // Check if the selected answer is correct
 function checkAnswer(selectedAnswer) {
     if (quizQuestions[currentQuestionIndex]) {
-        const correctAnswerId = quizQuestions[currentQuestionIndex].correct;
-        if (selectedAnswer === correctAnswerId) {
+        const correctAnswerIndex = quizQuestions[currentQuestionIndex].correct;
+        if (Number(selectedAnswer) === correctAnswerIndex) {
             incrementScore();
         }
     }
@@ -81,7 +81,7 @@ function incrementScore() {
     scoreCard.innerText = score;
 }
 // Display final results and show the restart button
-function displayResults() { 
+function displayResults() {
     quiz.innerHTML = `
         <h2>You scored ${score} out of ${quizQuestions.length}</h2>
         <button id="restartBtn" class="btn">Restart Game</button>

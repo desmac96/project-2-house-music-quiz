@@ -258,7 +258,7 @@ There are no known bugs
     <li>1. Log in to GitHub and locate the GitHub Repository.</li>
     <li>2. At the top of the Repository (not top of the page), locate the "Settings" button on the menu.</li>
     <li>3. Scroll down the Settings page until you locate the "GitHub Pages" section.</li>
-    <li>4. Under "Source", click the dropdown called "None" and select "Master Branch."</li>
+    <li>4. Under "Source", click the dropdown called "None" and select "Main Branch."</li>
     <li>5. The page will automatically refresh.</li>
     <li>6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
 </ul>
@@ -312,5 +312,4 @@ This project was started over a year ago. I took a break from coding for over a 
 <ul>
     <li>My mentor for continuous helpful feedback.</li>
     <li>Tutor support at Code Institute for their support.</li>
-    <li>I used Chat GPT to breakdown and help me understand Javascript and why I was using certain fuctions and how to use them. </li>
 </ul>
