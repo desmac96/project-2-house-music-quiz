@@ -1,3 +1,4 @@
+// jshint esversion :6 
 console.log("questions.js has been loaded successfully.");
 
 // Questions array imported from questions.js 

@@ -1,3 +1,4 @@
+// jshint esversion :6 
 // Questions array which is exported to script.js //
 export const quizQuestions = [{
         question: "What city did house music come from?",
