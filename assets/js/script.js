@@ -77,8 +77,21 @@ function incrementScore() {
     scoreCard.innerText = score;
 }
 
-function displayResults() {
-    quiz.innerHTML = `<h2>You scored ${score} out of ${quizQuestions.length}</h2>`;
+function displayResults() { // New: Function to display results and restart button
+    quiz.innerHTML = `
+        <h2>You scored ${score} out of ${quizQuestions.length}</h2>
+        <button id="restart-btn" class="btn">Restart Game</button>
+    `;
+    const restartBtn = document.getElementById('restart-btn');
+    restartBtn.onclick = () => location.reload();
+}
+
+function restartQuiz() { // New: Function to restart the quiz
+    currentQuestionIndex = 0;
+    score = 0;
+    scoreCard.innerText = score;
+    submitBtn.classList.remove('hidden'); // New: Ensure the submit button is visible again
+    loadQuestion();
 }
 
 // Initial call to load the first question
