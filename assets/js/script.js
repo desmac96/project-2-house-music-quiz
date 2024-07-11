@@ -1,10 +1,11 @@
 console.log("questions.js has been loaded successfully.");
 
-// Questions array imported from questions.js //
+// Questions array imported from questions.js 
 import {
     quizQuestions
 } from "./questions.js";
 
+// DOM Elements
 const quiz = document.getElementById('quiz-app');
 const answerOpts = document.querySelectorAll('.answer');
 const questionOpt = document.getElementById('questionaire');
@@ -15,11 +16,14 @@ const d_text = document.getElementById('d_answer');
 const submitBtn = document.getElementById('submit');
 const scoreCard = document.getElementById('score-card');
 
+// Initialize Variables
 let currentQuestionIndex = 0;
 let score = 0;
 
+//Event listener for the submit button
 submitBtn.addEventListener("click", handleAnswerSubmission);
 
+// Load the first question
 function loadQuestion() {
     deselectAnswers();
     const currentQuestionData = quizQuestions[currentQuestionIndex];
@@ -30,10 +34,12 @@ function loadQuestion() {
     d_text.innerText = currentQuestionData.d;
 }
 
+// Clear all selected answers
 function deselectAnswers() {
     answerOpts.forEach(answerE1 => answerE1.checked = false);
 }
 
+// Get the selected answer
 function getSelectedOpt() {
     let selectedAnswer;
     answerOpts.forEach(answerE1 => {
@@ -43,7 +49,7 @@ function getSelectedOpt() {
     });
     return selectedAnswer;
 }
-
+// Handle the submission of an answer
 function handleAnswerSubmission() {
     const selectedAnswer = getSelectedOpt();
     if (selectedAnswer) {
@@ -58,40 +64,30 @@ function handleAnswerSubmission() {
         alert("Please select an answer before proceeding.");
     }
 }
-
+// Check if the selected answer is correct
 function checkAnswer(selectedAnswer) {
     if (quizQuestions[currentQuestionIndex]) {
         const correctAnswerId = quizQuestions[currentQuestionIndex].correct;
         if (selectedAnswer === correctAnswerId) {
             incrementScore();
         }
-    } else {
-        submitBtn.innerText = "Restart Game";
-        submitBtn.onclick = () => location.reload();
     }
 
 }
-
+// Increment score
 function incrementScore() {
     score++;
     scoreCard.innerText = score;
 }
-
-function displayResults() { // New: Function to display results and restart button
+// Display final results and show the restart button
+function displayResults() { 
     quiz.innerHTML = `
         <h2>You scored ${score} out of ${quizQuestions.length}</h2>
-        <button id="restart-btn" class="btn">Restart Game</button>
+        <button id="restartBtn" class="btn">Restart Game</button>
     `;
-    const restartBtn = document.getElementById('restart-btn');
+    const restartBtn = document.getElementById('restartBtn');
     restartBtn.onclick = () => location.reload();
-}
-
-function restartQuiz() { // New: Function to restart the quiz
-    currentQuestionIndex = 0;
-    score = 0;
-    scoreCard.innerText = score;
-    submitBtn.classList.remove('hidden'); // New: Ensure the submit button is visible again
-    loadQuestion();
+    submitBtn.style.display = 'none';
 }
 
 // Initial call to load the first question
