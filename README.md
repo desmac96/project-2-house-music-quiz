@@ -167,7 +167,8 @@
 <ul>
     <li><strong>Google Fonts:</strong> Google Fonts were used to import the 'Quicksand' font into the style.css file, which is used throughout the project.</li>
     <li><strong>Balsamiq:</strong> Balsamiq was used to create wireframes during the planning phase of the project.
-    <img src="assets/balsamiq.png" alt="Balsamiq"></li> 
+    </li> 
+    <img src="assets/balsamiq.png" alt="Balsamiq">
     <li><strong>Font Awesome:</strong> Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.</li>
     <li><strong>Git:</strong> Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.</li>
     <li><strong>GitHub:</strong> GitHub is used to store the project's code after being pushed from Git.</li>
