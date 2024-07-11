@@ -1,66 +1,101 @@
-# House Music Quiz 
+ # project-2-house-music-quiz
 <h1>House Music Quiz</h1>
-<br>
+
+<h2>Description</h2>
 <p>
-The House Music Quiz is a fun and interactive web application designed to test your knowledge of house music. It presents multiple-choice questions about house music history, artists, and festivals. 
-The quiz consists of ten questions aimed house music fans both young and old.
-</p>
+    The House Music Quiz is a fun and interactive web application designed to test your knowledge of house music. It presents multiple-choice questions about house music history, artists, and festivals. The quiz consists of ten questions aimed at house music fans both young and old.
+</p> 
+
 <h2>Existing Features</h2>
-Home Page Introduction
 
-Main Heading: Clearly states the name of the quiz, "House Music Quiz."
+<h3>Home Page Introduction</h3>
+<p>
+    <strong>Main Heading:</strong> Clearly states the name of the quiz, "House Music Quiz."
+</p>
+<p>
+    <strong>Subheading:</strong> Encourages users to test their house music knowledge.
+</p>
+<p>
+    <strong>Start Button:</strong> A prominent button labeled "Start Quiz" that directs users to the quiz page.
+</p>
 
-Subheading: Encourages users to test their house music knowledge.
+<h3>Quiz Page</h3>
 
-Start Button: A prominent button labeled "Start Quiz" that directs users to the quiz page.
-Quiz Page
+<h4>Question Display</h4>
+<p>
+    <strong>Heading:</strong> "Question Section" indicates the start of the quiz.
+</p>
+<p>
+    <strong>Question Text:</strong> Dynamically displays each quiz question from a predefined list.
+</p>
+<p>
+    <strong>Answer Options:</strong>
+    <ul>
+        <li>Four radio buttons labeled "a," "b," "c," and "d" for each possible answer.</li>
+        <li>Labels associated with each radio button display the answer text.</li>
+    </ul>
+</p>
 
-Question Display:
-Heading: "Question Section" indicates the start of the quiz.
-Question Text: Dynamically displays each quiz question from a predefined list.
-Answer Options:
-Four radio buttons labeled "a," "b," "c," and "d" for each possible answer.
-Labels associated with each radio button display the answer text.
+<h3>Quiz Functionality</h3>
 
-Quiz Functionality
-Answer Selection:
-Users select an answer by clicking one of the radio buttons.
-Submit Button:
-A button labeled "Submit" allows users to submit their selected answer.
-Upon submission, the quiz checks the answer and updates the score.
-Score Display:
-A live score display showing the user's current score throughout the quiz.
-Score updates immediately after each question submission.
+<h4>Answer Selection</h4>
+<p>Users select an answer by clicking one of the radio buttons.</p>
 
-Question Navigation
+<h4>Submit Button</h4>
+<p>A button labeled "Submit" allows users to submit their selected answer.</p>
+<p>Upon submission, the quiz checks the answer and updates the score.</p>
 
-Automatic Question Progression:
-After submitting an answer, the quiz automatically loads the next question.
-If all questions are answered, the quiz displays the final score and results.
-Results Display:
-At the end of the quiz, a summary of the user's score out of the total questions is shown.
-Encourages users with a message based on their performance.
+<h4>Score Display</h4>
+<p>
+    A live score display showing the user's current score throughout the quiz. Score updates immediately after each question submission.
+</p>
 
-Restart Functionality
-Restart Button:
-A button labeled "Restart Game" appears at the end of the quiz.
-Clicking this button reloads the quiz, allowing users to take it again.
-Feedback Mechanisms
+<h3>Question Navigation</h3>
 
-Answer Validation:
-If no answer is selected when the user attempts to submit, an alert prompts them to choose an answer.
-Score Incrementation:
-Correct answers increment the score, providing immediate feedback on performance.
+<h4>Automatic Question Progression</h4>
+<p>
+    After submitting an answer, the quiz automatically loads the next question. If all questions are answered, the quiz displays the final score and results.
+</p>
 
-Responsive Design
-The quiz interface is designed to be responsive, ensuring a seamless user experience across different devices and screen sizes.
+<h4>Results Display</h4>
+<p>
+    At the end of the quiz, a summary of the user's score out of the total questions is shown. Encourages users with a message based on their performance.
+</p>
 
-Styling and User Interface
-Visual Design:
-The quiz container is styled with a clean and engaging look, using a light color scheme for the background and contrasting elements.
+<h3>Restart Functionality</h3>
+<p>
+    <strong>Restart Button:</strong> A button labeled "Restart Game" appears at the end of the quiz. Clicking this button reloads the quiz, allowing users to take it again.
+</p>
 
-Font and Layout:
-Uses the "Quicksand" font for a modern and readable appearance.
-Clear and intuitive layout to enhance user engagement and ease of use.
+<h3>Feedback Mechanisms</h3>
 
-By providing a straightforward, engaging, and interactive experience, the House Music Quiz effectively tests users' knowledge of house music while maintaining a user-friendly and visually appealing interface.
+<h4>Answer Validation</h4>
+<p>
+    If no answer is selected when the user attempts to submit, an alert prompts them to choose an answer.
+</p>
+
+<h4>Score Incrementation</h4>
+<p>
+    Correct answers increment the score, providing immediate feedback on performance.
+</p>
+
+<h3>Responsive Design</h3>
+<p>
+    The quiz interface is designed to be responsive, ensuring a seamless user experience across different devices and screen sizes.
+</p>
+
+<h3>Styling and User Interface</h3>
+
+<h4>Visual Design</h4>
+<p>
+    The quiz container is styled with a clean and engaging look, using a light color scheme for the background and contrasting elements.
+</p>
+
+<h4>Font and Layout</h4>
+<p>
+    Uses the "Quicksand" font for a modern and readable appearance. Clear and intuitive layout to enhance user engagement and ease of use.
+</p>
+
+<p>
+    By providing a straightforward, engaging, and interactive experience, the House Music Quiz effectively tests users' knowledge of house music while maintaining a user-friendly and visually appealing interface.
+</p>
