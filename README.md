@@ -196,3 +196,65 @@ GitHub is used to store the projects code after being pushed from Git.</li>
 
 ![alt text](assets/images/mrld-lighthouse.png)
 
+<h3>Testing User Stories from User Experience (UX) Section</h3>
+
+<h4>First Time Visitor Goals</h4>
+<ul>
+    <li>As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about what the quiz entails.</li>
+    <ul>
+        <li>Upon entering the site, the user is greeted with a clear and prominent "Start Quiz" button.</li>
+        <li>The homepage clearly states that the quiz is about testing knowledge of house music.</li>
+        <li>The user has the option to click the "Start Quiz" button to immediately begin the quiz.</li>
+    </ul>
+</ul>
+
+<ul>
+    <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.</li>
+    <ul>
+        <li>The site is designed to be simple and straightforward, so users are not distracted. The main call to action is the "Start Quiz" button.</li>
+    </ul>
+</ul>
+
+<h4>Returning Visitor Goals</h4>
+<ul>
+    <li>As a returning visitor, I want to see if there are any new quizzes or updates to the existing quiz since my last visit.</li>
+    <ul>
+        <li>The homepage or quiz page will display any new or updated quizzes.</li>
+    </ul>
+</ul>
+
+<ul>
+    <li>As a returning visitor, I want to access my previous scores to compare my current performance and track my improvement over time.</li>
+    <ul>
+        <li>Returning visitors can view their previous scores if the functionality is implemented to save scores locally or via user accounts.</li>
+    </ul>
+</ul>
+
+<h4>Frequent User Goals</h4>
+<ul>
+    <li>As a Frequent User, I want to see new and updated quiz questions to keep the experience fresh and challenging.</li>
+    <ul>
+        <li>The quiz database should be regularly updated with new questions to maintain user engagement.</li>
+    </ul>
+</ul>
+
+<ul>
+    <li>As a Frequent User, I want to share my quiz results with friends on social media platforms to encourage them to participate as well.</li>
+    <ul>
+        <li>After completing the quiz, users can share their results on social media through integrated share buttons.</li>
+    </ul>
+</ul>
+
+<h3>Further Testing</h3>
+<ul>
+    <li>The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, and Safari browsers.</li>
+    <li>The website was viewed on a variety of devices such as desktops, laptops, tablets, and mobile phones.</li>
+    <li>A large amount of testing was done to make sure all links are working correctly.</li>
+    <li>Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.</li>
+</ul>
+
+<h3>Known Bugs</h3>
+<ul>
+    <li>Initially, there were plans to have the footer section in white. However, after struggling to change the text color to black, the footer section was kept black with white text to maintain readability.</li>
+    <li>On some mobile phone sizes, certain elements of the quiz may appear slightly less visible.</li>
+</ul>
