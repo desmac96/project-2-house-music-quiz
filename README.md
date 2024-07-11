@@ -6,6 +6,8 @@
     The House Music Quiz is a fun and interactive web application designed to test your knowledge of house music. It presents multiple-choice questions about house music history, artists, and festivals. The quiz consists of ten questions aimed at house music fans both young and old.
 </p> 
 
+<img src="assets/images/amiresponsive.png" alt="Am I Responsive">
+
 <h2>Existing Features</h2>
 
 <h3>Home Page Introduction</h3>
@@ -193,7 +195,6 @@
     </li>
     <li>
         Responsive design was tested using Am I Responsive. The site looks great on all devices.
-        <img src="assets/images/amiresponsive.png" alt="Am I Responsive">
     </li>
 </ul>
 
