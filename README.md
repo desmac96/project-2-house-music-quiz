@@ -183,4 +183,16 @@ As a frequent visitor, I want to:
     <li><strong>Balsamiq:</strong> Balsamiq was used to create wireframes during the planning phase of the project.</li>
     <li><strong>Font Awesome:</strong> Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.</li>
 </ul>
+<li>Git:
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+<li>GitHub:
+GitHub is used to store the projects code after being pushed from Git.</li>
+<h2>Testing</h2>
+<li>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. </li>
+
+![alt text](assets/images/css-validation.png)
+
+<li>The site was also tested using devtools Lighthouse. Here are the results <li>
+
+![alt text](assets/images/mrld-lighthouse.png)
 
