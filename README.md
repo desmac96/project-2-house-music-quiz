@@ -174,9 +174,8 @@
 <ul>
     <li>
         The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+        <img src="assets/images/w3c.png" alt="W3C Validation">
     </li>
-    <img src="assets/images/w3c.png" alt="W3C Validation">
-
     <li>
         The site was also tested using devtools Lighthouse. Here are the results:
         <ul>
@@ -185,17 +184,18 @@
             <li>Best Practices: 100</li>
             <li>SEO: 100</li>
         </ul>
+        <img src="assets/images/lighthousep2.png" alt="Lighthouse Score">
     </li>
-    <img src="assets/images/lighthousep2.png" alt="Lighthouse Score">
-
-    <li>JavaScript functionality was tested, and no errors were found.</li>
-    <img src="assets/images/questionsjs.png" alt="JavaScript Questions">
-    <img src="assets/images/scriptjs.png" alt="JavaScript Script">
-
-    <li>Responsive design was tested using Am I Responsive. The site looks great on all devices.</li>
-    <img src="assets/images/amiresponsive.png" alt="Am I Responsive">
+    <li>
+        JavaScript functionality was tested, and no errors were found.
+        <img src="assets/images/questionsjs.png" alt="JavaScript Questions">
+        <img src="assets/images/scriptjs.png" alt="JavaScript Script">
+    </li>
+    <li>
+        Responsive design was tested using Am I Responsive. The site looks great on all devices.
+        <img src="assets/images/amiresponsive.png" alt="Am I Responsive">
+    </li>
 </ul>
-
 
 <h3>Testing User Stories from User Experience (UX) Section</h3>
 
