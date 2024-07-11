@@ -114,6 +114,21 @@ As a first-time visitor, I want to:
     <li>Receive instant feedback on my performance to understand how well I know house music.</li>
 </ul>
 
+<h2>Returning Visitor Goals</h2>
+
+<p>
+As a returning visitor, I want to:
+</p>
+
+<ul>
+    <li>Find the quiz quickly and start it with minimal navigation since I am already familiar with the site layout.</li>
+    <li>See if there are any new quizzes or updates to the existing quiz since my last visit.</li>
+    <li>Access my previous scores to compare my current performance and track my improvement over time.</li>
+    <li>Quickly find contact information or support in case I have any questions or encounter issues with the quiz.</li>
+    <li>Look for any new features or sections added to the website that enhance my experience or provide additional value.</li>
+    <li>Revisit sections of the website that I found interesting or useful during my previous visit.</li>
+</ul>
+
 <h2>Frequent Visitor Goals</h2>
 
 <p>
