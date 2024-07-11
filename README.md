@@ -301,8 +301,14 @@ There are no known bugs
     <li>All content was written by the developer.</li>
 </ul>
 
+<h3>Additional Note</h3>
+<p>
+This project was started over a year ago. I took a break from coding for over a year to pursue a career in music.
+</p>
+
 <h3>Acknowledgements</h3>
 <ul>
     <li>My mentor for continuous helpful feedback.</li>
     <li>Tutor support at Code Institute for their support.</li>
+    <li>I used Chat GPT to breakdown and help me understand Javascript and why I was using certain fuctions and how to use them. </li>
 </ul>
