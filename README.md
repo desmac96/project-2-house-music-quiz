@@ -258,3 +258,42 @@ GitHub is used to store the projects code after being pushed from Git.</li>
     <li>Initially, there were plans to have the footer section in white. However, after struggling to change the text color to black, the footer section was kept black with white text to maintain readability.</li>
     <li>On some mobile phone sizes, certain elements of the quiz may appear slightly less visible.</li>
 </ul>
+
+<h2>Deployment</h2>
+<h3>GitHub Pages</h3>
+<ul>The project was deployed to GitHub Pages using the following steps...<ul>
+<li>1.  Log in to GitHub and locate the GitHub Repository</li>
+<li>2.  At the top of the Repository (not top of the page), locate the "Settings" Button on the menu.</li>
+<li>3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.</li>
+<li>4.  Under "Source", click the dropdown called "None" and select "Master Branch"</li>
+<li>5.  The page will automatically refresh.</li>
+<li>6.  Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
+<h3>Forking the GitHub Repository</h3>
+<ul>By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...</ul>
+<li>1.  Log in to GitHub and locate the GitHub Repository</li>
+<li>2.  At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+<li>3.  You should now have a copy of the original repository in your GitHub account.</li>
+<h3>Making a Local Clone</h3>
+<li>1.  Log in to GitHub and locate the GitHub Repository</li>
+<li>2.  Under the repository name, click "Clone or download".</li>
+<li>3.  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link</li>
+<li>4.  Open Git Bash</li>
+<li>5.  Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>6.  Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</li>
+
+<li>7.  Press Enter. Your local clone will be created. </li>
+<ul>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY </ul>
+<ul>> Cloning into `CI-Clone`... </ul>
+<ul>> remote: Counting objects: 10, done. </ul>
+<ul>> remote: Compressing objects: 100% (8/8), done. </ul>
+<ul>> remove: Total 10 (delta 1), reused 10 (delta 1)</ul>
+<ul>> Unpacking objects: 100% (10/10), done.</ul>
+<h2>Credits</h2>
+<h3>Code</h3>
+<li>I used the Love Running project as a guide. </li>
+<h3>Content</h3>
+<li>All content was written by the developer.</li>
+<h3>Acknowledgements</h3>
+<li>My mentor for continuous helpful feedback. </li>
+<li>Tutor support at Code Institute for their support</li> 
