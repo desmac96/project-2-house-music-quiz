@@ -144,3 +144,43 @@ As a frequent visitor, I want to:
     <li>Provide feedback on the quiz content and suggest new questions or topics for future quizzes.</li>
     <li>Find additional resources or links to learn more about house music, enhancing my knowledge and interest in the genre.</li>
 </ul>
+<h2>Design</h2>
+
+<ul>
+    <h3>Colour Scheme</h3>
+    <li>The primary colors used are green and white. Green is used for the background, providing a vibrant and energetic feel, while white is used for the text and quiz container to ensure readability and contrast.</li>
+</ul>
+
+<ul>
+    <h3>Typography</h3>
+    <li>The main font used in this website is 'Quicksand,' imported through Google Fonts. This font was chosen for its modern and clean appearance, which suits the interactive and engaging nature of the quiz. Sans Serif is used as a fallback in case the font is not imported correctly.</li>
+</ul>
+
+<ul>
+    <h3>Imagery</h3>
+    <li>Imagery is used minimally to maintain focus on the quiz content. The background image is designed to catch the user's eye and create an engaging atmosphere without distracting from the quiz questions.</li>
+</ul>
+
+<h2>Features</h2>
+<ul>
+    <li>Responsive on all devices</li>
+    <li>Interactive quiz elements</li>
+    <li>Instant feedback on answers</li>
+    <li>Score tracking and display</li>
+    <li>Option to restart the quiz</li>
+</ul>
+
+<h2>Technologies Used</h2>
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+</ul>
+
+<h2>Frameworks, Libraries & Programs Used</h2>
+<ul>
+    <li><strong>Google Fonts:</strong> Google Fonts were used to import the 'Quicksand' font into the style.css file, which is used throughout the project.</li>
+    <li><strong>Balsamiq:</strong> Balsamiq was used to create wireframes during the planning phase of the project.</li>
+    <li><strong>Font Awesome:</strong> Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.</li>
+</ul>
+
