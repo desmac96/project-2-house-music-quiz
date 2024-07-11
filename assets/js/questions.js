@@ -1,13 +1,12 @@
-// Questions array which is exported to script.js
-export const quizQuestions = [
-    {
+// Questions array which is exported to script.js //
+export const quizQuestions = [{
         question: "What city did house music come from?",
         a: "San Francisco",
         b: "New York",
         c: "Miami",
         d: "Los Angeles",
         correct: "b",
-    }, 
+    },
     {
         question: "What category of music does house fall under?",
         a: "Dance",
@@ -15,7 +14,7 @@ export const quizQuestions = [
         c: "Rock",
         d: "Country",
         correct: "a",
-    }, 
+    },
     {
         question: "Who was the man behind the name Mr. Fingers and tracks such as 'Can You Feel It'?",
         a: "Larry Heard",
@@ -23,7 +22,7 @@ export const quizQuestions = [
         c: "Larry Heath",
         d: "Larry Levan",
         correct: "d",
-    }, 
+    },
     {
         question: "This man is behind classics such as 'Move Your Body', 'I Got Da Feeling' and 'Mushrooms'. What's his name?",
         a: "Seth Troxler",
@@ -31,7 +30,7 @@ export const quizQuestions = [
         c: "Robert Hood",
         d: "Marshall Jefferson",
         correct: "d",
-    }, 
+    },
     {
         question: "What company designed the legendary tr808 and tr909 drum machines?",
         a: "Moog",

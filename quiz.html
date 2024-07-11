@@ -2,35 +2,47 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="House music quiz designed to test your house music knowledge">
+    <meta name="keywords" content="house music quiz, quiz, house music, music quiz">
+
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Fav Icon Link -->
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon2.ico">
+        <!-- Page Title -->
     <title>House Music Quiz</title>
+    <!-- Quiz Main Heading -->
+    <h1>House Music Quiz</h1>
 </head>
 
 <body>
-    <h1>House Music Quiz</h1>
+    <!-- Quiz container section -->
     <section class="quiz_container" id="quiz-app">
+        <!-- Quiz heading and question section -->
         <div class="quiz_heading">
             <h2 id="questionaire">Question Section</h2>
+            <!-- List of answer options -->
             <ul>
+                <!-- Answer option A -->
                 <li>
                     <input type="radio" name="answer" id="a" class="answer">
                     <label for="a" id="a_answer">Answer</label>
                 </li>
-
+                <!-- Answer option B -->
                 <li>
                     <input type="radio" name="answer" id="b" class="answer">
                     <label for="b" id="b_answer">Answer</label>
                 </li>
-
+                <!-- Answer option C -->    
                 <li>
                     <input type="radio" name="answer" id="c" class="answer">
                     <label for="c" id="c_answer">Answer</label>
                 </li>
-
+                <!-- Answer option D -->
                 <li>
                     <input type="radio" name="answer" id="d" class="answer">
                     <label for="d" id="d_answer">Answer</label>
@@ -39,14 +51,17 @@
 
         </div>
     </section>
-    <hr />
+    <hr/>
+    <!-- Submit button and score display section -->
     <div>
         <button class="btn" id="submit" submit>Submit</button>
+        <!-- Score display -->
         <div class="score">Score:
             <span id="score-card">0</span>
         </div>
     </div>
     </section>
+     <!-- Include external JavaScript files -->
     <script type="module" src="assets/js/questions.js"></script>
     <script type="module" src="assets/js/script.js"></script>
 </body>
