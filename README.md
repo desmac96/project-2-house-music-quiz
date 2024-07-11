@@ -1,4 +1,4 @@
- # project-2-house-music-quiz
+# Project-2-House-Music-Quiz
 <h1>House Music Quiz</h1>
 
 <h2>Description</h2>
@@ -47,7 +47,7 @@
 
 <h4>Score Display</h4>
 <p>
-    A live score display showing the user's current score throughout the quiz. Score updates immediately after each question submission.
+    A live score display shows the user's current score throughout the quiz. The score updates immediately after each question submission.
 </p>
 
 <h3>Question Navigation</h3>
@@ -59,7 +59,7 @@
 
 <h4>Results Display</h4>
 <p>
-    At the end of the quiz, a summary of the user's score out of the total questions is shown. Encourages users with a message based on their performance.
+    At the end of the quiz, a summary of the user's score out of the total questions is shown, encouraging users with a message based on their performance.
 </p>
 
 <h3>Restart Functionality</h3>
@@ -88,12 +88,12 @@
 
 <h4>Visual Design</h4>
 <p>
-    The quiz container is styled with a clean and engaging look, using a light color scheme for the background and contrasting elements.
+    The quiz container is styled with a clean and engaging look, using a light color scheme for the background and contrasting elements. The "Start Quiz" and "Submit" buttons are styled in black to improve the Lighthouse rating.
 </p>
 
 <h4>Font and Layout</h4>
 <p>
-    Uses the "Quicksand" font for a modern and readable appearance. Clear and intuitive layout to enhance user engagement and ease of use.
+    The main font used in this website is "Quicksand," imported through Google Fonts. This font was chosen for its modern and clean appearance, which suits the interactive and engaging nature of the quiz. Sans Serif is used as a fallback in case the font is not imported correctly.
 </p>
 
 <p>
@@ -101,12 +101,10 @@
 </p>
 
 <h2>First Time Visitor Goals</h2>
-<p>
-As a first-time visitor, I want to:
-</p>
+<p>As a first-time visitor, I want to:</p>
 
 <ul>
-    <li>Easily understand the main purpose of the website and learn more about what services are being offered.</li>
+    <li>Easily understand the main purpose of the website and learn more about what the quiz entails.</li>
     <li>Effortlessly navigate through the website and find the quiz section without any confusion.</li>
     <li>Have a clear and intuitive user interface that guides me through starting and completing the quiz.</li>
     <li>Access relevant information about house music, including trivia and facts, which enhances my interest in the quiz.</li>
@@ -115,25 +113,18 @@ As a first-time visitor, I want to:
 </ul>
 
 <h2>Returning Visitor Goals</h2>
-
-<p>
-As a returning visitor, I want to:
-</p>
+<p>As a returning visitor, I want to:</p>
 
 <ul>
     <li>Find the quiz quickly and start it with minimal navigation since I am already familiar with the site layout.</li>
     <li>See if there are any new quizzes or updates to the existing quiz since my last visit.</li>
     <li>Access my previous scores to compare my current performance and track my improvement over time.</li>
-    <li>Quickly find contact information or support in case I have any questions or encounter issues with the quiz.</li>
     <li>Look for any new features or sections added to the website that enhance my experience or provide additional value.</li>
     <li>Revisit sections of the website that I found interesting or useful during my previous visit.</li>
 </ul>
 
 <h2>Frequent Visitor Goals</h2>
-
-<p>
-As a frequent visitor, I want to:
-</p>
+<p>As a frequent visitor, I want to:</p>
 
 <ul>
     <li>Quickly start the quiz without any hassle, as I am already familiar with the website layout and navigation.</li>
@@ -144,6 +135,7 @@ As a frequent visitor, I want to:
     <li>Provide feedback on the quiz content and suggest new questions or topics for future quizzes.</li>
     <li>Find additional resources or links to learn more about house music, enhancing my knowledge and interest in the genre.</li>
 </ul>
+
 <h2>Design</h2>
 
 <ul>
@@ -153,7 +145,7 @@ As a frequent visitor, I want to:
 
 <ul>
     <h3>Typography</h3>
-    <li>The main font used in this website is 'Quicksand,' imported through Google Fonts. This font was chosen for its modern and clean appearance, which suits the interactive and engaging nature of the quiz. Sans Serif is used as a fallback in case the font is not imported correctly.</li>
+    <li>The main font used in this website is "Quicksand," imported through Google Fonts. This font was chosen for its modern and clean appearance, which suits the interactive and engaging nature of the quiz. Sans Serif is used as a fallback in case the font is not imported correctly.</li>
 </ul>
 
 <ul>
@@ -182,17 +174,15 @@ As a frequent visitor, I want to:
     <li><strong>Google Fonts:</strong> Google Fonts were used to import the 'Quicksand' font into the style.css file, which is used throughout the project.</li>
     <li><strong>Balsamiq:</strong> Balsamiq was used to create wireframes during the planning phase of the project.</li>
     <li><strong>Font Awesome:</strong> Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.</li>
+    <li><strong>Git:</strong> Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.</li>
+    <li><strong>GitHub:</strong> GitHub is used to store the project's code after being pushed from Git.</li>
 </ul>
-<li>Git:
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
-<li>GitHub:
-GitHub is used to store the projects code after being pushed from Git.</li>
+
 <h2>Testing</h2>
-<li>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. </li>
-
-![alt text](assets/images/css-validation.png)
-
-<li>The site was also tested using devtools Lighthouse. Here are the results <li>
+<ul>
+    <li>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.</li>
+    <li>The site was also tested using devtools Lighthouse. Here are the results:</li>
+</ul>
 
 ![alt text](assets/images/mrld-lighthouse.png)
 
@@ -260,40 +250,59 @@ GitHub is used to store the projects code after being pushed from Git.</li>
 </ul>
 
 <h2>Deployment</h2>
-<h3>GitHub Pages</h3>
-<ul>The project was deployed to GitHub Pages using the following steps...<ul>
-<li>1.  Log in to GitHub and locate the GitHub Repository</li>
-<li>2.  At the top of the Repository (not top of the page), locate the "Settings" Button on the menu.</li>
-<li>3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.</li>
-<li>4.  Under "Source", click the dropdown called "None" and select "Master Branch"</li>
-<li>5.  The page will automatically refresh.</li>
-<li>6.  Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
-<h3>Forking the GitHub Repository</h3>
-<ul>By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...</ul>
-<li>1.  Log in to GitHub and locate the GitHub Repository</li>
-<li>2.  At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
-<li>3.  You should now have a copy of the original repository in your GitHub account.</li>
-<h3>Making a Local Clone</h3>
-<li>1.  Log in to GitHub and locate the GitHub Repository</li>
-<li>2.  Under the repository name, click "Clone or download".</li>
-<li>3.  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link</li>
-<li>4.  Open Git Bash</li>
-<li>5.  Change the current working directory to the location where you want the cloned directory to be made.</li>
-<li>6.  Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</li>
 
-<li>7.  Press Enter. Your local clone will be created. </li>
-<ul>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY </ul>
-<ul>> Cloning into `CI-Clone`... </ul>
-<ul>> remote: Counting objects: 10, done. </ul>
-<ul>> remote: Compressing objects: 100% (8/8), done. </ul>
-<ul>> remove: Total 10 (delta 1), reused 10 (delta 1)</ul>
-<ul>> Unpacking objects: 100% (10/10), done.</ul>
+<h3>GitHub Pages</h3>
+<ul>
+    <li>1. Log in to GitHub and locate the GitHub Repository.</li>
+    <li>2. At the top of the Repository (not top of the page), locate the "Settings" button on the menu.</li>
+    <li>3. Scroll down the Settings page until you locate the "GitHub Pages" section.</li>
+    <li>4. Under "Source", click the dropdown called "None" and select "Master Branch."</li>
+    <li>5. The page will automatically refresh.</li>
+    <li>6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
+</ul>
+
+<h3>Forking the GitHub Repository</h3>
+<ul>
+    <li>By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:</li>
+    <li>1. Log in to GitHub and locate the GitHub Repository.</li>
+    <li>2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.</li>
+    <li>3. You should now have a copy of the original repository in your GitHub account.</li>
+</ul>
+
+<h3>Making a Local Clone</h3>
+<ul>
+    <li>1. Log in to GitHub and locate the GitHub Repository.</li>
+    <li>2. Under the repository name, click "Clone or download."</li>
+    <li>3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.</li>
+    <li>4. Open Git Bash.</li>
+    <li>5. Change the current working directory to the location where you want the cloned directory to be made.</li>
+    <li>6. Type git clone, and then paste the URL you copied in Step 3.
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</li>
+    <li>7. Press Enter. Your local clone will be created.</li>
+</ul>
+<ul>
+    <li>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</li>
+    <li>> Cloning into `CI-Clone`...</li>
+    <li>> remote: Counting objects: 10, done.</li>
+    <li>> remote: Compressing objects: 100% (8/8), done.</li>
+    <li>> remove: Total 10 (delta 1), reused 10 (delta 1)</li>
+    <li>> Unpacking objects: 100% (10/10), done.</li>
+</ul>
+
 <h2>Credits</h2>
+
 <h3>Code</h3>
-<li>I used the Love Running project as a guide. </li>
+<ul>
+    <li>I used the Love Running project as a guide.</li>
+</ul>
+
 <h3>Content</h3>
-<li>All content was written by the developer.</li>
+<ul>
+    <li>All content was written by the developer.</li>
+</ul>
+
 <h3>Acknowledgements</h3>
-<li>My mentor for continuous helpful feedback. </li>
-<li>Tutor support at Code Institute for their support</li> 
+<ul>
+    <li>My mentor for continuous helpful feedback.</li>
+    <li>Tutor support at Code Institute for their support.</li>
+</ul>
