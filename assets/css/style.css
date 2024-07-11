@@ -31,7 +31,7 @@ h1 {
 /* Styling for the quiz container */
 .quiz_container {
     background-color: #fff5f5;
-    box-shadow: 0 0 10px 20 px rgba(100, 100, 100, 0.1);
+    box-shadow: 0 0 10px 20px rgba(100, 100, 100, 0.1);
     align-items: center;
     width: 60%;
     max-width: 600px;

@@ -107,7 +107,6 @@
     <li>Easily understand the main purpose of the website and learn more about what the quiz entails.</li>
     <li>Effortlessly navigate through the website and find the quiz section without any confusion.</li>
     <li>Have a clear and intuitive user interface that guides me through starting and completing the quiz.</li>
-    <li>Access relevant information about house music, including trivia and facts, which enhances my interest in the quiz.</li>
     <li>Feel encouraged to participate in the quiz through engaging and appealing visual elements.</li>
     <li>Receive instant feedback on my performance to understand how well I know house music.</li>
 </ul>
@@ -117,8 +116,6 @@
 
 <ul>
     <li>Find the quiz quickly and start it with minimal navigation since I am already familiar with the site layout.</li>
-    <li>See if there are any new quizzes or updates to the existing quiz since my last visit.</li>
-    <li>Access my previous scores to compare my current performance and track my improvement over time.</li>
     <li>Look for any new features or sections added to the website that enhance my experience or provide additional value.</li>
     <li>Revisit sections of the website that I found interesting or useful during my previous visit.</li>
 </ul>
@@ -129,11 +126,6 @@
 <ul>
     <li>Quickly start the quiz without any hassle, as I am already familiar with the website layout and navigation.</li>
     <li>See new and updated quiz questions to keep the experience fresh and challenging.</li>
-    <li>Access my previous scores and track my progress over time to see how my knowledge is improving.</li>
-    <li>Share my quiz results with friends on social media platforms to encourage them to participate as well.</li>
-    <li>Sign up for notifications or newsletters to stay informed about new quizzes or updates related to house music.</li>
-    <li>Provide feedback on the quiz content and suggest new questions or topics for future quizzes.</li>
-    <li>Find additional resources or links to learn more about house music, enhancing my knowledge and interest in the genre.</li>
 </ul>
 
 <h2>Design</h2>
@@ -184,7 +176,7 @@
     <li>The site was also tested using devtools Lighthouse. Here are the results:</li>
 </ul>
 
-![alt text](assets/images/mrld-lighthouse.png)
+![alt text](assets/images/lighthousep2.png)
 
 <h3>Testing User Stories from User Experience (UX) Section</h3>
 
@@ -214,10 +206,6 @@
 </ul>
 
 <ul>
-    <li>As a returning visitor, I want to access my previous scores to compare my current performance and track my improvement over time.</li>
-    <ul>
-        <li>Returning visitors can view their previous scores if the functionality is implemented to save scores locally or via user accounts.</li>
-    </ul>
 </ul>
 
 <h4>Frequent User Goals</h4>
@@ -225,13 +213,6 @@
     <li>As a Frequent User, I want to see new and updated quiz questions to keep the experience fresh and challenging.</li>
     <ul>
         <li>The quiz database should be regularly updated with new questions to maintain user engagement.</li>
-    </ul>
-</ul>
-
-<ul>
-    <li>As a Frequent User, I want to share my quiz results with friends on social media platforms to encourage them to participate as well.</li>
-    <ul>
-        <li>After completing the quiz, users can share their results on social media through integrated share buttons.</li>
     </ul>
 </ul>
 
@@ -244,10 +225,9 @@
 </ul>
 
 <h3>Known Bugs</h3>
-<ul>
-    <li>Initially, there were plans to have the footer section in white. However, after struggling to change the text color to black, the footer section was kept black with white text to maintain readability.</li>
-    <li>On some mobile phone sizes, certain elements of the quiz may appear slightly less visible.</li>
-</ul>
+<p>
+There are no known bugs
+</p>
 
 <h2>Deployment</h2>
 
@@ -293,7 +273,7 @@
 
 <h3>Code</h3>
 <ul>
-    <li>I used the Love Running project as a guide.</li>
+    <p>I studied similar projects on Youtube and Peer code review before designing the quiz.
 </ul>
 
 <h3>Content</h3>
