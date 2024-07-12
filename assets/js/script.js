@@ -7,6 +7,7 @@ import {
 } from "./questions.js";
 
 // DOM Elements
+const quizForm = document.getElementById('quiz-form');
 const quiz = document.getElementById('quiz-app');
 const answerOpts = document.querySelectorAll('.answer');
 const questionOpt = document.getElementById('questionaire');
